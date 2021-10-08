@@ -4,9 +4,7 @@
 
 ### 1. Create an react app
 
-    ```js
     npx create-react-app my-app
-    ```
 
 ### 2. Install Tailwind CSS
 
@@ -14,23 +12,19 @@
 
 ### 3. Install React Icon
 
-    ```js
     npm i react-icons
 
     // or
 
     yarn add react-icons
-    ```
 
 ### 4. Install React Reveal
 
-    ```js
     npm i react-reveal
 
     // or
 
     yarn add react-reveal
-    ```
 
 ### 5. Finally follow this upper source code
 
