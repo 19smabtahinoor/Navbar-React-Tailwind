@@ -40,14 +40,14 @@ const Navbar = () => {
 
                 {/* menu icon  */}
                 <div className="block md:hidden lg:hidden">
-                    <HiMenuAlt3 className="w-10 h-10 text-white cursor-pointer bg-blue-600 rounded-lg p-2 transform transition duration-200 hover:scale-110" onClick={handleClick} />
+                    <HiMenuAlt3 className="w-10 h-10 ring-blue-300 text-gray-700 border border-gray-400 focus:ring-4 cursor-pointer rounded-lg p-2 transform transition duration-200 hover:scale-110" onClick={handleClick} />
                 </div>
             </nav>
 
             {/* mobile nav  */}
             {mobileNav && (
                 <Fade>
-                    <nav className="bg-gray-50 py-4 block md:hidden lg:hidden">
+                    <nav className="bg-white shadow-lg mx-6 mt-2 rounded-lg border border-gray-300 py-4 block md:hidden lg:hidden">
                         <ul>
                             {menu.map(item => (
                                 <a key={item.id} href={item.to} className="text-gray-600 text-lg">
