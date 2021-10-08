@@ -1,5 +1,9 @@
 # React Tailwind Navbar
 
+## Preview of this navbar
+
+[Live site link](https://navbar-react-tailwind.vercel.app/)
+
 ## Proccess of how to get the navbar code
 
 ### 1. Create an react app
