@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Navbar from './components/Navbar'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <Navbar />
+
+      <div className="pt-6">
+        <h1 className="text-4xl text-center text-gray-800 font-semibold">Get the source code of this navbar</h1>
+        <p className="text-center text-lg pt-3 font-semibold">Source Code : <a href="https://github.com/19smabtahinoor/Navbar-React-Tailwind" target="_blank" rel="noopener noreferrer" className="underline text-blue-600">Click here</a></p>
+        <p className="text-center text-lg pt-3 font-semibold">Live Site Link : <a href="https://navbar-react-tailwind.vercel.app" target="_blank" rel="noopener noreferrer" className="underline text-blue-600">Click here</a></p>
+      </div>
+    </>
+  )
 }
 
-export default App;
+export default App
